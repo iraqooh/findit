@@ -34,10 +34,7 @@ Before you begin, ensure you have the following installed:
 
 ## Depedencies
 
-This project makes use of several Node packages. To install them, simply run the following command:
-
-```npm install
-```
+This project makes use of several Node packages. To install them, simply run the following command: `npm install`.
 
 This command will read the package.json file in your project directory and install all the listed packages. Make sure you are in the correct project directory when you run this command.
 
