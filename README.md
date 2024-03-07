@@ -1,6 +1,6 @@
-# findit AJAX-PHP Autocomplete Search Web App
+# findit AJAX-PHP-MySQL Autocomplete Search Web App
 
-This project demonstrates how to create a live search (autocomplete) feature using AJAX, PHP, and Apache. When users start typing search terms, the app fetches relevant suggestions from a database and displays them in real-time.
+This project demonstrates how to create a live search (autocomplete) feature using AJAX, PHP, MySQL and Apache Servers. When users start typing search terms, the app fetches relevant suggestions from a database and displays them in real-time.
 
 ## Prerequisites
 
@@ -32,6 +32,15 @@ Before you begin, ensure you have the following installed:
      "Performance Optimization Techniques")
     ```
 
+## Depedencies
+
+This project makes use of several Node packages. To install them, simply run the following command:
+
+```npm install
+```
+
+This command will read the package.json file in your project directory and install all the listed packages. Make sure you are in the correct project directory when you run this command.
+
 ## Files and Structure
 
 1. **index.php**: The main file where users input data and view search results.
@@ -39,6 +48,9 @@ Before you begin, ensure you have the following installed:
 3. **server.php**: Processes the AJAX requests and returns a response.
 4. **script.js**: Contains JavaScript functions for AJAX requests.
 5. **style.css**: Provides styling for the search engine.
+6. **images**: Contains media files including the favicons.
+7. **db.php**: This is the MySQL database configuration file.
+8. Others include .gitignore, package.json, package-lock.json and README.md
 
 ## Usage
 
